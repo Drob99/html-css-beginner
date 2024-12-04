@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- All meta data. Invisibles-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Cats Galore</title>
+</head>
+
+<body>
+    <header>
+        <!--typography tags-->
+        <h1>Cats Website</h1>
+        <!--Links to other parts of page-->
+        <nav style="color: blue; background-color: yellow;">
+            <a href="#footer">
+                <p>Footer</p>
+            </a>
+            <a href="https://www.google.com">
+                <p>Google</p>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <!--Section is like a big chunk of related elements. Div is the most common and generic container tag.-->
+        <section>
+            <h2>Everything you should know about cats!</h2>
+        
+            <!--These are 2 classes that identify this.-->
+            <p class ="paragraph header">Cats are my favorite animal on the face of the Earth and so I am creating this website to commemorate their
+                brilliance. </p>
+        </section>
+        
+        <!-- Utility Tags-->
+        <section>
+            <div id="first-div">
+                <!--Self-closing Tag-->
+                <img style="width: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jss1A1oUkKuuSbJnic0a3OoQnn-JTHnz1w&s"
+                    alt="cat-profile-img" />
+        
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeMLj0rR7BCCqJM4JlwV4qIHQwq4FvqTddKQ&s"
+                    target="_blank">
+                    <p>Click here for more cat images</p>
+                    <!--Child of anchor tag. Put text in paragraph tags by best practice.-->
+                </a>
+            </div>
+        
+            <!-- A form wraps sections of user input.-->
+            <form>
+                <!-- Inputs like to sit in labels, where more info about that label could be added. -->
+                <label>
+                    <p>Cat breed</p>
+                    <!-- Another self-closing tag-->
+                    <input style="width: 240px;" placeholder="Enter the name of your favorite cat breed..." />
+                </label>
+        
+                <button>
+                    <p>Submit</p>
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        Copyright 2024
+    </footer>
+
+</body>
+</html>
+
